@@ -1,4 +1,12 @@
 #+TITLE: Readme
 #+AUTHOR: D7R103
 
-* Readme
+** Henlo
+This repo contains a personal collection of Emacs configs that I've found useful.
+
+None of this has been particularly heavily tested and is prone to changes. There are times where Emacs will just hang for a bit as the sea of packages being included and stacked ontop of each other collide in.
+
+** What sorts of stuff is here?
+Many peeps have gone to great effort in commenting and organising their configs to be all nice and pretty.
+
+These are about as 
