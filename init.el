@@ -85,6 +85,8 @@
 
 (define-key ggtags-mode-map (kbd "M-,") 'pop-tag-mark)
 
+(windmove-default-keybindings 'meta)
+
 (global-font-lock-mode t)
 (add-hook 'c-mode-hook 'display-line-numbers-mode)
 (setq linum-format "%3d ")
