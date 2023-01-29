@@ -1,0 +1,14 @@
+elpa
+diary
+*.eld
+*.cache
+tramp
+recentf
+*.dat
+bookmarks
+ede-projects.el
+projects
+auto-save-list/*
+auto-save-list/.*
+snippets
+semanticdb
