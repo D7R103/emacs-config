@@ -19,7 +19,7 @@ Back to the point :
 
 ** Current config grumbles
 List of current annoyances:
-- cannot highlight/select text via ~shift-arrow_key~ as they're bound to swapping between windows. Current workaround is to use ~C-shift-arrow_key~. Will one day get around to this, likely by picking a differnt binding for window swapping
+- +cannot highlight/select text via ~shift-arrow_key~ as they're bound to swapping between windows. Current workaround is to use ~C-shift-arrow_key~. Will one day get around to this, likely by picking a differnt binding for window swapping+
 - Parsing C/C++ files upon opening takes an age. The larger the file the longer it takes. I wouldn't mind so much, except Emacs hangs when I start to modify the file. It does eventually clear itself up (usually after a couple of minutes). It's likely a threading issue causing it
 - Finding configs and settings. ~init.el~ can take me a little while to find what I'm looking for. I'm tempted to either split it into smaller files, or take the file and split it into commented sections.
 
