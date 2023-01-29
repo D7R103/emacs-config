@@ -109,19 +109,15 @@
 (global-set-key "\C-x\C-m" 'not-modified);
 (global-set-key "\C-xj" 'find-journal)
 
-;(setq make-backup-files 'nil);
-;(setq default-major-mode 'text-mode)
-;(setq text-mode-hook 'turn-on-auto-fill)
-;(set-default-font "-misc-fixed-medium-r-normal--15-140-*-*-c-*-*-1")
 (setq auto-mode-alist (cons '("\\.cxx$" . c++-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.cpp$" . c++-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.hpp$" . c++-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.h$" . c++-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.tex$" . latex-mode) auto-mode-alist))
 
-;(require 'font-lock)
-;(add-hook 'c-mode-hook 'turn-on-font-lock)
-;(add-hook 'c++-mode-hook 'turn-on-font-lock)
+(require 'font-lock)
+(add-hook 'c-mode-hook 'turn-on-font-lock)
+(add-hook 'c++-mode-hook 'turn-on-font-lock)
 
 (setq tramp-default-method "ssh")
 
@@ -148,10 +144,6 @@
 (require 'function-args)
 (fa-config-default)
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    '("cf9414f229f6df728eb2a5a9420d760673cca404fee9910551caf9c91cff3bfa" default))
  '(org-agenda-files '("~/journals"))
@@ -159,10 +151,6 @@
  '(package-selected-packages
    '(astyle auto-complete-clang cmake-ide company-c-headers org-bullets ob-rust ob-async helm-etags-plus ccls auto-complete-clang-async lean-mode yasnippet-lean eldoc-cmake eldoc-box company-flx eglot org-pdftools tron-legacy-theme zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu)))
 (custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  )
 
 (load-theme 'tron-legacy)
