@@ -6,6 +6,8 @@ This repo contains a personal collection of Emacs configs and extensions that I'
 
 There are times where Emacs will just hang for a bit as the sea of packages being included and stacked ontop of each other collide (usually a good excuse to put the kettle on).
 
+Some of the bindings and packages may not make sense at first glance. Please bear in mind that the configs are designed to be functional over both GUI and CLI without needing to remember different keybindings or setup.
+
 ** What sorts of stuff is here?
 Ain't it great when you stumble on to a repo of nicely organised config and code?
 
@@ -23,6 +25,10 @@ List of current annoyances:
 - Parsing C/C++ files upon opening takes an age. The larger the file the longer it takes. I wouldn't mind so much, except Emacs hangs when I start to modify the file. It does eventually clear itself up (usually after a couple of minutes). It's likely a threading issue causing it
 - Finding configs and settings. ~init.el~ can take me a little while to find what I'm looking for. I'm tempted to either split it into smaller files, or take the file and split it into commented sections.
 
+** Todo
+- Add custom ~org-agenda~ UI and functionality. Maybe add a shortcut to most frequent functions
+- Better refiling. /I'm such an organised person that this isn't a problem at all.../
+- Change ~S-{<left>,<right>,<up>,<down>}~ to use a differnt modifier when in org-mode. Being able to highlight stuff whilst working via CLI has it's uses
 ** Note
 There's stuff in here that's been copy/pasta'd from other projects. These are isolated to the ~custom~ directory. I cannot remember where they all came from, or what I've changed in each - as I remember or they are found by whichever means, I'll update the list below
 
