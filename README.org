@@ -2,11 +2,29 @@
 #+AUTHOR: D7R103
 
 ** Henlo
-This repo contains a personal collection of Emacs configs that I've found useful.
+This repo contains a personal collection of Emacs configs and extensions that I've found useful over the years.
 
-None of this has been particularly heavily tested and is prone to changes. There are times where Emacs will just hang for a bit as the sea of packages being included and stacked ontop of each other collide in.
+There are times where Emacs will just hang for a bit as the sea of packages being included and stacked ontop of each other collide (usually a good excuse to put the kettle on).
 
 ** What sorts of stuff is here?
-Many peeps have gone to great effort in commenting and organising their configs to be all nice and pretty.
+Ain't it great when you stumble on to a repo of nicely organised config and code?
 
-These are about as 
+This ramshackled collection of configs and settings are about the furthest point away from that. There's the odd comment here and there, but nothing particularly helpful.
+
+Back to the point : 
+- C/C++ linting and completion (using CMake/Unix Makefile)
+- Org-Mode extensions - mainly around ~org-agenda~
+- Tron inspired theme
+- Custom keyboard shortcuts (staying relatively close to vanilla)
+
+** Current config grumbles
+List of current annoyances:
+- cannot highlight/select text via ~shift-arrow_key~ as they're bound to swapping between windows. Current workaround is to use ~C-shift-arrow_key~. Will one day get around to this, likely by picking a differnt binding for window swapping
+- Parsing C/C++ files upon opening takes an age. The larger the file the longer it takes. I wouldn't mind so much, except Emacs hangs when I start to modify the file. It does eventually clear itself up (usually after a couple of minutes). It's likely a threading issue causing it
+- Finding configs and settings. ~init.el~ can take me a little while to find what I'm looking for. I'm tempted to either split it into smaller files, or take the file and split it into commented sections.
+
+** Note
+There's stuff in here that's been copy/pasta'd from other projects. These are isolated to the ~custom~ directory. I cannot remember where they all came from, or what I've changed in each - as I remember or they are found by whichever means, I'll update the list below
+
+** My thanks
+- project cmake: https://github.com/juanjosegarciaripoll/project-cmake
